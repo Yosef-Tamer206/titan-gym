@@ -1,47 +1,126 @@
 <!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
+<html lang="ar" dir="rtl"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>TITAN GYM</title>
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="main.css">
-<style>html,body,#root{position:static!important;height:auto!important;overflow:visible!important;overflow-x:clip!important;overscroll-behavior:auto!important}html,body{margin:0;background:#fdfcfb}</style>
-</head>
-<body>
-<div id="root"></div>
+<title>TITAN GYM | جيم الفيوم</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0b0c0e;--ink2:#141619;--line:#26292e;--mut:#9aa0a8;--fg:#f4f5f6;--acc:#e8402a;--acc2:#ff6a4d}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:Cairo,system-ui,sans-serif;background:var(--ink);color:var(--fg);line-height:1.7;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}img{display:block;max-width:100%}
+.wrap{max-width:1180px;margin:auto;padding:0 24px}
+nav{position:fixed;top:0;inset-inline:0;z-index:50;transition:.3s}
+nav.s{background:rgba(11,12,14,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nb{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{font-weight:900;font-size:22px;letter-spacing:.14em}.logo b{color:var(--acc)}
+.links{display:flex;gap:30px;font-size:15px;font-weight:600;color:#d5d8dc}.links a:hover{color:#fff}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--acc);color:#fff;font-weight:700;padding:13px 28px;border-radius:4px;border:0;font:700 15px Cairo;cursor:pointer;transition:.2s}
+.btn:hover{background:var(--acc2)}.btn.o{background:transparent;border:1.5px solid #ffffff55}.btn.o:hover{border-color:#fff;background:#ffffff12}
+.hero{position:relative;min-height:min(100vh,760px);display:flex;align-items:center;background:linear-gradient(270deg,rgba(11,12,14,.35),rgba(11,12,14,.92)),url(https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=1920&q=75) center right/cover}
+.hero:after{content:"";position:absolute;inset:auto 0 0;height:160px;background:linear-gradient(transparent,var(--ink))}
+.hero .wrap{width:100%;position:relative;z-index:2;padding-top:110px;padding-bottom:140px}
+.eyebrow{font-size:14px;font-weight:700;letter-spacing:.08em;color:var(--acc2);margin-bottom:18px;display:flex;gap:12px;align-items:center}
+.eyebrow:before{content:"";width:36px;height:2px;background:var(--acc)}
+h1{font-size:clamp(40px,7vw,84px);line-height:1.12;font-weight:900;max-width:780px}h1 em{font-style:normal;color:var(--acc)}
+.hero p{max-width:540px;margin:24px 0 34px;color:#cfd3d8;font-size:18px}
+.cta{display:flex;gap:14px;flex-wrap:wrap}
+.stats{position:relative;z-index:3;margin-top:-70px}
+.sg{display:grid;grid-template-columns:repeat(4,1fr);background:var(--ink2);border:1px solid var(--line);border-radius:6px}
+.sg div{padding:28px;text-align:center;border-inline-start:1px solid var(--line)}.sg div:first-child{border:0}
+.sg b{display:block;font-size:38px;font-weight:900;line-height:1.2}.sg span{color:var(--mut);font-size:14px}
+section{padding:110px 0}
+.sh{max-width:620px;margin-bottom:54px}.sh h2{font-size:clamp(30px,4.5vw,46px);font-weight:900;line-height:1.25}.sh p{color:var(--mut);margin-top:12px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}
+.about img{border-radius:6px;width:100%;height:480px;object-fit:cover}
+.about ul{list-style:none;margin-top:26px;display:grid;gap:14px}.about li{display:flex;gap:12px;color:#d5d8dc}.about li:before{content:"";flex:none;width:8px;height:8px;background:var(--acc);margin-top:11px}
+.pg{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{position:relative;height:400px;border-radius:6px;overflow:hidden;background:#000}
+.card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:.6s;opacity:.8}.card:hover img{transform:scale(1.06);opacity:.6}
+.card:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 35%,rgba(0,0,0,.9))}
+.card div{position:absolute;z-index:2;bottom:0;padding:26px}.card small{color:var(--acc2);font-weight:700}.card h3{font-size:24px;font-weight:800}.card p{color:#c9cdd2;font-size:14px}
+.tr{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.t{background:var(--ink2);border:1px solid var(--line);border-radius:6px;padding:34px 28px}
+.av{width:68px;height:68px;border-radius:50%;background:var(--acc);display:grid;place-items:center;font-size:28px;font-weight:900;margin-bottom:18px}
+.t h3{font-size:20px;font-weight:800}.t small{color:var(--acc2);font-weight:700}.t p{color:var(--mut);font-size:14px;margin-top:10px}
+.alt{background:#0f1114;border-block:1px solid var(--line)}
+.pl{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;align-items:stretch}
+.p{background:var(--ink2);border:1px solid var(--line);border-radius:6px;padding:38px 32px;display:flex;flex-direction:column;position:relative}
+.p.f{border-color:var(--acc);background:linear-gradient(#1a1412,#141619)}.p.f:before{content:"الأكثر طلباً";position:absolute;top:-13px;inset-inline-start:28px;background:var(--acc);font-size:12px;font-weight:800;padding:2px 14px;border-radius:3px}
+.p h3{font-size:18px;color:var(--mut);font-weight:700}.p .pr{font-size:54px;font-weight:900;line-height:1.3;margin:6px 0 20px}.pr small{font-size:15px;color:var(--mut);font-weight:600}
+.p ul{list-style:none;display:grid;gap:11px;margin-bottom:30px;flex:1;color:#d5d8dc;font-size:15px}.p li:before{content:"✓";color:var(--acc2);margin-inline-end:10px;font-weight:900}
+table{width:100%;border-collapse:collapse;font-size:15px}th,td{padding:16px 14px;text-align:start;border-bottom:1px solid var(--line)}th{color:var(--mut);font-weight:700;font-size:13px}td b{color:var(--acc2)}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:6px;background:var(--ink2)}
+.bmi{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+.bf{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+input,select,textarea{width:100%;background:var(--ink2);border:1px solid var(--line);border-radius:4px;color:#fff;padding:14px;font:600 15px Cairo}input:focus,select:focus{outline:0;border-color:var(--acc)}
+.bf .btn{grid-column:1/-1}.res{grid-column:1/-1;min-height:30px;color:var(--acc2);font-weight:700}
+.join{background:linear-gradient(270deg,rgba(11,12,14,.95),rgba(11,12,14,.75)),url(https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1600&q=75) center/cover;text-align:center}
+.join h2{font-size:clamp(30px,5vw,54px);font-weight:900}.join p{color:#cfd3d8;margin:12px 0 30px}
+.jf{display:flex;gap:12px;max-width:620px;margin:auto;flex-wrap:wrap}.jf input{flex:1;min-width:160px}
+.ok{margin-top:16px;color:var(--acc2);font-weight:700;min-height:26px}
+footer{border-top:1px solid var(--line);padding:42px 0;color:var(--mut);font-size:14px}.fr{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media(max-width:900px){.links{display:none}.sg{grid-template-columns:1fr 1fr}.sg div:nth-child(3){border-inline-start:0}.sg div:nth-child(n+3){border-top:1px solid var(--line)}
+.about,.bmi{grid-template-columns:1fr;gap:30px}.about img{height:300px}.pg,.tr,.pl{grid-template-columns:1fr}.card{height:320px}section{padding:76px 0}.hero{background-position:62% center}.nb .btn{padding:10px 18px}}
+</style></head><body>
+<nav id="nav"><div class="wrap nb"><a href="#" class="logo">TITAN<b>.</b>GYM</a>
+<div class="links"><a href="#about">عن الجيم</a><a href="#programs">البرامج</a><a href="#trainers">المدربين</a><a href="#plans">الاشتراكات</a><a href="#schedule">الجدول</a><a href="#bmi">BMI</a></div>
+<a href="#join" class="btn">اشترك الآن</a></div></nav>
+
+<header class="hero"><div class="wrap">
+<div class="eyebrow">جيم متكامل في قلب الفيوم</div>
+<h1>تدرّب بجدية.<br><em>اوصل لهدفك.</em></h1>
+<p>أجهزة حديثة، مدربين معتمدين، وخطة تمرين وتغذية مصممة على مقاسك من أول يوم.</p>
+<div class="cta"><a href="#plans" class="btn">شوف الاشتراكات</a><a href="#join" class="btn o">احجز حصة تجريبية مجانية</a></div></div></header>
+
+<div class="wrap stats"><div class="sg">
+<div><b data-n="1250">0</b><span>عضو نشط</span></div><div><b data-n="18">0</b><span>مدرب معتمد</span></div><div><b data-n="45">0</b><span>حصة أسبوعياً</span></div><div><b data-n="7">0</b><span>سنين خبرة</span></div></div></div>
+
+<section id="about"><div class="wrap about">
+<img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?auto=format&fit=crop&w=1000&q=75" alt="صالة الأجهزة" loading="lazy">
+<div><div class="eyebrow">عن الجيم</div><div class="sh" style="margin:0"><h2>مساحة تمرين مجهزة لكل المستويات</h2><p>من أول يوم ليك للمحترف، هتلاقي المعدات والمتابعة اللي تخليك مستمر.</p></div>
+<ul><li>أجهزة كارديو ومقاومة حديثة وأوزان حرة كاملة</li><li>تقييم أولي وخطة تمرين مكتوبة لكل عضو</li><li>صالات منفصلة للسيدات والرجال وحصص جماعية</li><li>مواعيد مفتوحة من الصبح لآخر الليل</li></ul></div></div></section>
+
+<section id="programs" class="alt"><div class="wrap"><div class="sh"><div class="eyebrow">البرامج</div><h2>برامج تناسب هدفك</h2><p>اختار الأنسب ليك والمدرب هيظبط الخطة.</p></div>
+<div class="pg">
+<div class="card"><img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=75" alt="" loading="lazy"><div><small>٤-٥ حصص أسبوعياً</small><h3>بناء العضلات</h3><p>برنامج Hypertrophy لمدة ١٢ أسبوع مع متابعة الأوزان.</p></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=900&q=75" alt="" loading="lazy"><div><small>خطة ٨ أسابيع</small><h3>تنشيف وخسارة وزن</h3><p>كارديو موجه ونظام أكل محسوب بالسعرات.</p></div></div>
+<div class="card"><img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=900&q=75" alt="" loading="lazy"><div><small>حصص جماعية يومياً</small><h3>HIIT ولياقة</h3><p>حصص ٣٠ دقيقة عالية الكفاءة لحرق أسرع.</p></div></div>
+</div></div></section>
+
+<section id="trainers"><div class="wrap"><div class="sh"><div class="eyebrow">الفريق</div><h2>مدربين معتمدين بيتابعوك</h2><p>أسماء توضيحية للعرض.</p></div>
+<div class="tr">
+<div class="t"><div class="av">أ</div><h3>كابتن أحمد سامي</h3><small>بناء الأجسام</small><p>متخصص في برامج القوة وبناء العضلات لكل المستويات.</p></div>
+<div class="t"><div class="av">م</div><h3>كابتن محمد رضا</h3><small>تنشيف وتغذية رياضية</small><p>خطط تنشيف وتغذية مبنية على قياسات جسمك.</p></div>
+<div class="t"><div class="av">س</div><h3>كابتن سارة محمود</h3><small>لياقة وHIIT للسيدات</small><p>برامج لياقة وحصص جماعية للسيدات والمبتدئات.</p></div>
+</div></div></section>
+
+<section id="plans" class="alt"><div class="wrap"><div class="sh"><div class="eyebrow">الاشتراكات</div><h2>اشتراك واضح وبدون مفاجآت</h2><p>الأسعار توضيحية للعرض.</p></div>
+<div class="pl">
+<div class="p"><h3>شهري</h3><div class="pr">300 <small>جنيه / شهر</small></div><ul><li>دخول كل الأجهزة</li><li>تقييم أولي للجسم</li><li>خطة تمرين مكتوبة</li></ul><a href="#join" class="btn o">اختار الباقة</a></div>
+<div class="p f"><h3>٣ شهور</h3><div class="pr">750 <small>جنيه / ٣ شهور</small></div><ul><li>كل مميزات الشهري</li><li>حصص جماعية مفتوحة</li><li>متابعة شهرية مع المدرب</li><li>خطة تغذية</li></ul><a href="#join" class="btn">اختار الباقة</a></div>
+<div class="p"><h3>سنوي</h3><div class="pr">2400 <small>جنيه / سنة</small></div><ul><li>كل مميزات الـ٣ شهور</li><li>جلسات Personal Training</li><li>قياس InBody كل شهر</li><li>تجميد اشتراك لمدة شهر</li></ul><a href="#join" class="btn o">اختار الباقة</a></div>
+</div></div></section>
+
+<section id="schedule"><div class="wrap"><div class="sh"><div class="eyebrow">الجدول</div><h2>جدول الحصص الأسبوعي</h2></div>
+<div class="tw"><table><thead><tr><th>اليوم</th><th>الصبح ٩:٠٠</th><th>العصر ٥:٠٠</th><th>المساء ٨:٠٠</th></tr></thead><tbody>
+<tr><td><b>السبت</b></td><td>HIIT</td><td>قوة وبناء</td><td>كيك بوكسينج</td></tr>
+<tr><td><b>الاثنين</b></td><td>لياقة ومرونة</td><td>HIIT</td><td>قوة وبناء</td></tr>
+<tr><td><b>الأربعاء</b></td><td>تنشيف</td><td>كيك بوكسينج</td><td>HIIT</td></tr>
+<tr><td><b>الخميس</b></td><td>قوة وبناء</td><td>لياقة ومرونة</td><td>تنشيف</td></tr>
+</tbody></table></div></div></section>
+
+<section id="bmi" class="alt"><div class="wrap bmi"><div><div class="eyebrow">أداة سريعة</div><div class="sh" style="margin:0"><h2>احسب مؤشر كتلة جسمك</h2><p>اكتب وزنك وطولك وشوف أنت فين وإيه البرنامج الأنسب.</p></div></div>
+<form class="bf" id="bf"><input id="w" type="number" min="30" max="250" placeholder="الوزن (كجم)" required><input id="h" type="number" min="120" max="230" placeholder="الطول (سم)" required><button class="btn">احسب</button><div class="res" id="res"></div></form></div></section>
+
+<section id="join" class="join"><div class="wrap"><h2>جاهز تبدأ؟</h2><p>سيب بياناتك واحجز حصة تجريبية مجانية.</p>
+<form class="jf" id="jf"><input required placeholder="الاسم"><input required type="tel" placeholder="رقم الموبايل"><button class="btn">احجز الآن</button></form><div class="ok" id="ok"></div></div></section>
+
+<footer><div class="wrap fr"><div class="logo">TITAN<b>.</b>GYM</div><div>الفيوم، مصر · يومياً ٩ ص – ١٢ م</div><div>نسخة تجريبية: الأسماء والأسعار توضيحية والحجز لا يرسل طلباً فعلياً.</div></div></footer>
 <script>
-(function () {
-  var PREFIX = 'instinct-file:titan-gym:';
-  function readLocal(key) {
-    try { var v = localStorage.getItem(PREFIX + key); return v == null ? { status: 'memory' } : { status: 'saved', value: v }; }
-    catch (e) { return { status: 'memory' }; }
-  }
-  function writeLocal(key, value) {
-    try { localStorage.setItem(PREFIX + key, value); return { status: 'saved' }; }
-    catch (e) { return { status: 'memory' }; }
-  }
-  window.instinctFile = {
-    initialRoute: decodeURIComponent(location.hash.slice(1) || '/'),
-    route: function (p) {
-      if (typeof p === 'string' && p.startsWith('/') && !p.startsWith('//')) {
-        var h = '#' + encodeURIComponent(p);
-        if (location.hash !== h) history.replaceState(null, '', h);
-      }
-    },
-    asset: function (u) { return u; },
-    request: function (method, params) {
-      if (method === 'local.read') return Promise.resolve(readLocal(params && params.key));
-      if (method === 'local.write') return Promise.resolve(writeLocal(params && params.key, params && params.value));
-      return Promise.resolve({ status: 'unavailable' });
-    },
-    live: { subscribe: function () { return function () {}; }, hold: function () {}, reveal: function () {} }
-  };
-  window.addEventListener('hashchange', function () {
-    window.dispatchEvent(new CustomEvent('instinct-route', { detail: decodeURIComponent(location.hash.slice(1) || '/') }));
-  });
-})();
-</script>
-<script src="main.js" defer></script>
-</body>
-</html>
+var n=document.getElementById('nav');function sc(){n.classList.toggle('s',scrollY>40)}sc();addEventListener('scroll',sc,{passive:true});
+var io=new IntersectionObserver(function(e){e.forEach(function(x){if(!x.isIntersecting)return;var el=x.target,t=+el.dataset.n,s=performance.now();(function f(now){var p=Math.min((now-s)/1200,1);el.textContent=Math.round(t*p).toLocaleString('en');if(p<1)requestAnimationFrame(f)})(s);io.unobserve(el)})});
+document.querySelectorAll('[data-n]').forEach(function(e){io.observe(e)});
+document.getElementById('bf').onsubmit=function(e){e.preventDefault();var w=+document.getElementById('w').value,h=document.getElementById('h').value/100,b=w/(h*h),t=b<18.5?'نحافة: ننصح ببرنامج بناء العضلات':b<25?'وزن مثالي: ننصح بـ HIIT ولياقة':b<30?'وزن زائد: ننصح بتنشيف وخسارة وزن':'سمنة: ننصح بخطة تنشيف مع متابعة المدرب';document.getElementById('res').textContent='BMI = '+b.toFixed(1)+' — '+t};
+document.getElementById('jf').onsubmit=function(e){e.preventDefault();document.getElementById('ok').textContent='تم تسجيل طلبك للعرض التجريبي. هنتواصل معاك قريباً.';e.target.reset()};
+</script></body></html>
