@@ -42,7 +42,7 @@
   ));
   var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
-  // ../../skills/platform/files/render/page-kit/kit.js
+  // ../../../../skills/platform/files/render/page-kit/kit.js
   var kit_exports = {};
   __export(kit_exports, {
     Files: () => b3,
@@ -6954,7 +6954,7 @@ ${String(e6)}`), new Response(r, { status: 500, headers: { "Content-Type": "text
   }
   var import_meta, H3, Md, U3, B3, V3, W3, Rr, Jm, Y3, j, dg, te, pg, be, Sg, Dg, Py, ml, Fy, k4, R4, fM, hM, pM, mM, cx, Ot, B, V, gr, it, K, q2, na, pp, H, mr, gw, vw, pr, yl, qr, Sl, Cl, yp, $y, wl, yr, vE, wE, EE, RE, SE, CE, DE, NE, Iy, xp, bp, nr, AE, TE, FE, $E, Ba, sc, uc, Ep, lt, Nw, aa, OE, By, Fw, HE, UE, BE, $w, VE, Vi, Nl, vn, zw, Ow, Iw, Ia, ji, ra, Hi, WE, Ky, Np, Xy, JE, Tr, Xr, Ml, to, ro, Xi, t2, mt, la, It, Pp, Kr, r2, oR, lR, i2, l2, cR, c2, ep, mR, ow, sw, vR, uw, yR, qa, xR, bR, kR, b2, Gu, Ku, Bu, PR, L2, jp, Hp, Up, ec, Bp, Vp, M2, P2, Yi, cp, _2, qi, A2, dp, T2, F2, fp, $2, TR, rp, FR, zR, Vu, UR, BR, Ar, I2, xc, Wp, Wu, Qu, oS, tc, Rc, ap, xr, mw, rc, ao, gS, io, zl, Mc, yS, wS, gp, qu, Fr, lo, zc, Y4, oo, gt, w0, _S, AS, I4, Oc, Ic, x0, U4, G4, K4, jc, X4, y0, P4, tx, s8, T4, u8, F4, lx, sx, st, so, m8, X, Vl, uL, b3, Im, Je, xL, D0, Sx, Cx, P0, Gl, g8, xx, dx, v8, y8, C0, fx, w8, x8, b8, k8, E8, R8, S8, C8, bx, Pe, kx, N8, L8, M8, P8, _8, A8, T8, Dn, ca, uo, S0, Wl, F8, ue, da, $8, z8, O8, I8, j8, H8, Yl, co, U8, Ex, B8, V8, px, W8, ql, Y8, q8, G8, K8, X8, Q8, J8, Uc, L0, nC, gx, vx, lC, sC, M0, uC, _0, A0, Ve, is, fd, Cb, ma, Zc, h5, ls, Ln, wa, gd, R, Mt, _t, ge, yd, ar, li, ga, im, U, ce, T, wo, ze, Y5, Se, Ql, e3, t3, r3, de, ni, Pt, cs, ut, i3, ae, z, $r, pa, Ed, me, Nt, w3, Ce, x3, Lt, dC, wb, fC, hC, pC, mC, gC, vC, xb, bb, Or, At, cd, yC, wC, xC, bC, kC, EC, RC, SC, CC, Dx, DC, NC, LC, dd, Jc, PC, _C, um, cm, AC, Nb, IC, EL, RL, jC, Nx, V0, W0, Y0, Mx, ri, go, po, Jl, en, qC, GC, KC, XC, QC, ZC, JC, Px, Ab, Tb, rd, Fb, $b, zb, Ob, mo, Ib, n7, Ub, hm, pm, hd, ts, Ix, jx, Hx, pd, Q0, SL, CL, Z0, I0, y7, w7, b7, k7, E7, R7, Ux, $7, Xb, Vx, Yx, qx, Yc, Qb, Zb, j0, H0, ym, DL, e5, NL, t5, LL, r5, ML, n5, PL, a5, _L, i5, AL, Y7, TL, o5, q7, G7, K7, X7, Q7, Z7, FL, $L, zL, OL, IL, jL, HL, l5, J7, eD, tD, rD, nD, aD, UL, BL, VL, WL, YL, qL, GL, s5, KL, u5, XL, wm, QL, xm, ZL, Gx, pD, mD, Kx, Xx, ED, RD, SD, DD, em, tm, Qa, ND, LD, FD, $D, ID, jD, md, Mn, bm, UD, km, Em, m5, BD, oi, Rm, g5, WD, YD, v5, qD, GD, KD, XD, JD, e9, Xl, w5, eb, tb, rb, rs, u9, S5, c9, f9, H5, ti, sd, ns, h9, p9, nb, k9, E9, ab, ib, Kt, A9, T9, F9, $9, z9, O9, I9, j9, H9, U9, Gc, B0, q5, B9, sb, W9, jt, Kc, G9, X9, ub, Q9, Z5, eN, cb, nN, db, fb, om, d3, ho, ha, f3, hb, br, pb, gb, h3, yb, Rd;
   var init_kit = __esm({
-    "../../skills/platform/files/render/page-kit/kit.js"() {
+    "../../../../skills/platform/files/render/page-kit/kit.js"() {
       import_meta = {};
       H3 = Object.create;
       Md = Object.defineProperty;
@@ -14345,203 +14345,199 @@ Error generating stack: ` + i.message + `
       scrollToId("gym-join");
     };
     const marqueeText = "NO PAIN NO GAIN \u2726 \u062A\u0645\u0631\u064A\u0646 \u2726 \u0627\u0644\u062A\u0632\u0627\u0645 \u2726 \u0646\u062A\u064A\u062C\u0629 \u2726 DISCIPLINE \u2726 \u0642\u0648\u0629 \u2726 \u0644\u064A\u0627\u0642\u0629 \u2726 TITAN GYM \u2726 ";
-    return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(FileCard, { children: [
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Header, { title: "TITAN GYM \u2014 \u0645\u0648\u0642\u0639 \u0627\u0644\u062C\u064A\u0645", fact: "\u0646\u0633\u062E\u0629 \u062A\u062C\u0631\u064A\u0628\u064A\u0629 \u0644\u0644\u0645\u0631\u0627\u062C\u0639\u0629", intro: "\u0645\u0648\u0642\u0639 \u062C\u064A\u0645 \u0628\u062A\u0635\u0645\u064A\u0645 \u0631\u064A\u0627\u0636\u064A \u062F\u0627\u0643\u0646: \u0628\u0631\u0627\u0645\u062C \u062A\u062F\u0631\u064A\u0628\u060C \u0645\u062F\u0631\u0628\u064A\u0646\u060C \u0623\u0633\u0639\u0627\u0631\u060C \u062C\u062F\u0648\u0644 \u062D\u0635\u0635 \u0623\u0633\u0628\u0648\u0639\u064A\u060C \u0648\u062D\u0627\u0633\u0628\u0629 BMI \u2014 \u0643\u0644 \u0627\u0644\u0623\u0633\u0645\u0627\u0621 \u0648\u0627\u0644\u0623\u0633\u0639\u0627\u0631 \u0644\u0644\u062A\u062C\u0631\u0628\u0629." }),
-      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "gym-root", dir: "rtl", lang: "ar", children: [
-        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("header", { className: "gym-nav", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { type: "button", className: "gym-nav-logo", onClick: () => scrollToId("gym-hero"), children: [
-            DUMBBELL,
-            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
-              "TITAN",
-              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("b", { children: "GYM" })
-            ] })
-          ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("nav", { className: menuOpen ? "gym-nav-links is-open" : "gym-nav-links", children: [["programs", "\u0627\u0644\u0628\u0631\u0627\u0645\u062C"], ["trainers", "\u0627\u0644\u0645\u062F\u0631\u0628\u064A\u0646"], ["pricing", "\u0627\u0644\u0623\u0633\u0639\u0627\u0631"], ["schedule", "\u0627\u0644\u062C\u062F\u0648\u0644"], ["bmi", "\u0627\u062D\u0633\u0628 BMI"]].map(([id2, label]) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { type: "button", onClick: () => scrollToId(`gym-${id2}`), children: label }, id2)) }),
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { type: "button", className: "gym-btn gym-btn-sm", onClick: () => scrollToId("gym-join"), children: "\u0627\u0634\u062A\u0631\u0643 \u062F\u0644\u0648\u0642\u062A\u064A" }),
-          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { type: "button", className: "gym-burger", "aria-label": "\u0627\u0644\u0642\u0627\u0626\u0645\u0629", onClick: () => setMenuOpen(!menuOpen), children: [
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {}),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {}),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {})
+    return /* @__PURE__ */ (0, import_jsx_runtime.jsx)(FileCard, { children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "gym-root", dir: "rtl", lang: "ar", children: [
+      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("header", { className: "gym-nav", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { type: "button", className: "gym-nav-logo", onClick: () => scrollToId("gym-hero"), children: [
+          DUMBBELL,
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
+            "TITAN",
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("b", { children: "GYM" })
           ] })
         ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", { className: "gym-hero", id: "gym-hero", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "gym-hero-bg", "aria-hidden": "true" }),
-          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "gym-hero-content", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { className: "gym-hero-tag", children: [
-              DUMBBELL,
-              " \u062A\u0635\u0645\u064A\u0645 \u062A\u062C\u0631\u064A\u0628\u064A \u0644\u0645\u0648\u0642\u0639 \u062C\u064A\u0645 \u0641\u064A \u0627\u0644\u0641\u064A\u0648\u0645"
-            ] }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h1", { children: [
-              "\u062C\u0633\u0645\u0643 \u0645\u0634\u0631\u0648\u0639\u0643",
-              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {}),
-              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "\u0648\u0627\u062D\u0646\u0627 \u0645\u0647\u0646\u062F\u0633\u064A\u0646\u0647" })
-            ] }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-hero-sub", children: "\u0623\u062C\u0647\u0632\u0629 \u062D\u062F\u064A\u062B\u0629\u060C \u0645\u062F\u0631\u0628\u064A\u0646 \u0645\u0639\u062A\u0645\u062F\u064A\u0646\u060C \u0648\u062E\u0637\u0637 \u062A\u063A\u0630\u064A\u0629 \u0648\u062A\u0645\u0631\u064A\u0646 \u0645\u062E\u0635\u0635\u0629 \u0644\u064A\u0643 \u2014 \u0645\u0646 \u0623\u0648\u0644 \u064A\u0648\u0645 \u0644\u062D\u062F \u0645\u0627 \u062A\u0648\u0635\u0644 \u0644\u0647\u062F\u0641\u0643." }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "gym-hero-cta", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { type: "button", className: "gym-btn", onClick: () => scrollToId("gym-pricing"), children: "\u0634\u0648\u0641 \u0627\u0644\u0627\u0634\u062A\u0631\u0627\u0643\u0627\u062A" }),
-              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { type: "button", className: "gym-btn gym-btn-ghost", onClick: () => scrollToId("gym-bmi"), children: "\u0627\u062D\u0633\u0628 BMI \u0628\u062A\u0627\u0639\u0643" })
-            ] }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "gym-hero-stats", children: [["1250", "\u0639\u0636\u0648 \u0646\u0634\u0637"], ["18", "\u0645\u062F\u0631\u0628 \u0645\u0639\u062A\u0645\u062F"], ["45", "\u062D\u0635\u0629 \u0623\u0633\u0628\u0648\u0639\u064A\u064B\u0627"], ["7", "\u0633\u0646\u064A\u0646 \u062E\u0628\u0631\u0629"]].map(([n, label]) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "gym-stat", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "gym-stat-num", "data-count": n, children: "0" }),
-              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "gym-stat-label", children: label })
-            ] }, label)) }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-stats-note", children: "\u0623\u0631\u0642\u0627\u0645 \u0644\u0644\u0639\u0631\u0636 \u0627\u0644\u062A\u062C\u0631\u064A\u0628\u064A \u0641\u0642\u0637" })
-          ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "gym-hero-art", "aria-hidden": "true", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "gym-hero-circle" }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("svg", { className: "gym-hero-figure", viewBox: "0 0 200 220", fill: "currentColor", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("circle", { cx: "100", cy: "42", r: "24" }),
-              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M100 70c-26 0-46 12-56 34l-22 46c-3 7 1 15 9 16 6 1 12-2 15-8l18-38c4-8 12-13 21-13h30c9 0 17 5 21 13l18 38c3 6 9 9 15 8 8-1 12-9 9-16l-22-46c-10-22-30-34-56-34z" }),
-              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", { x: "8", y: "86", width: "184", height: "10", rx: "5" }),
-              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", { x: "0", y: "74", width: "22", height: "34", rx: "5" }),
-              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", { x: "178", y: "74", width: "22", height: "34", rx: "5" })
-            ] })
-          ] })
-        ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "gym-marquee", dir: "ltr", children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "gym-marquee-track", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: marqueeText }),
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: marqueeText })
-        ] }) }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", { className: "gym-section", id: "gym-programs", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", { className: "gym-section-title", children: [
-            "\u0628\u0631\u0627\u0645\u062C\u0646\u0627 ",
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "\u0627\u0644\u062A\u062F\u0631\u064A\u0628\u064A\u0629" })
-          ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-section-sub", children: "\u0627\u062E\u062A\u0627\u0631 \u0627\u0644\u0628\u0631\u0646\u0627\u0645\u062C \u0627\u0644\u0644\u064A \u064A\u0646\u0627\u0633\u0628 \u0647\u062F\u0641\u0643\u060C \u0648\u0627\u0644\u0645\u062F\u0631\u0628\u064A\u0646 \u064A\u0638\u0628\u0637\u0648\u0644\u0643 \u0627\u0644\u062E\u0637\u0629." }),
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "gym-filters", children: [["all", "\u0627\u0644\u0643\u0644"], ["strength", "\u0642\u0648\u0629 \u0648\u0628\u0646\u0627\u0621 \u0639\u0636\u0644"], ["cutting", "\u062A\u0646\u0634\u064A\u0641 \u0648\u062E\u0633\u0627\u0631\u0629 \u0648\u0632\u0646"], ["fitness", "\u0644\u064A\u0627\u0642\u0629 \u0639\u0627\u0645\u0629"]].map(([f, label]) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { type: "button", className: filter === f ? "gym-chip is-active" : "gym-chip", onClick: () => setFilter(f), children: label }, f)) }),
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "gym-cards", children: programs.filter((p) => filter === "all" || p.cat === filter).map((p) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("article", { className: "gym-card", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "gym-card-icon", children: p.icon }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", { children: p.name }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: p.desc }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "gym-card-meta", children: p.meta })
-          ] }, p.name)) })
-        ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", { className: "gym-section gym-section-dark", id: "gym-trainers", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", { className: "gym-section-title", children: [
-            "\u0645\u062F\u0631\u0628\u064A\u0646\u0627 ",
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "\u0627\u0644\u0645\u062D\u062A\u0631\u0641\u064A\u0646" })
-          ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-section-sub", children: "\u0623\u0633\u0645\u0627\u0621 \u0648\u0628\u064A\u0627\u0646\u0627\u062A \u0644\u0644\u062A\u0648\u0636\u064A\u062D \u0641\u0642\u0637 \u2014 \u0641\u064A \u0627\u0644\u0645\u0648\u0642\u0639 \u0627\u0644\u0646\u0647\u0627\u0626\u064A \u062A\u062A\u0639\u0631\u0636 \u0628\u064A\u0627\u0646\u0627\u062A \u0627\u0644\u0645\u062F\u0631\u0628\u064A\u0646 \u0627\u0644\u062D\u0642\u064A\u0642\u064A\u0629." }),
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "gym-trainers", children: trainers.map((t) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("article", { className: "gym-trainer", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "gym-trainer-avatar", children: t.initial }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", { children: t.name }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-trainer-role", children: t.role }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-trainer-bio", children: t.bio })
-          ] }, t.name)) })
-        ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", { className: "gym-section", id: "gym-pricing", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", { className: "gym-section-title", children: [
-            "\u0627\u0634\u062A\u0631\u0627\u0643\u0627\u062A ",
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "\u062A\u0646\u0627\u0633\u0628\u0643" })
-          ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-section-sub", children: "\u0623\u0633\u0639\u0627\u0631 \u062A\u062C\u0631\u064A\u0628\u064A\u0629 \u0644\u0644\u0639\u0631\u0636 \u2014 \u0641\u064A \u0627\u0644\u0645\u0648\u0642\u0639 \u0627\u0644\u0646\u0647\u0627\u0626\u064A \u062A\u062A\u062D\u0637 \u0623\u0633\u0639\u0627\u0631 \u0627\u0644\u062C\u064A\u0645 \u0627\u0644\u062D\u0642\u064A\u0642\u064A\u0629." }),
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "gym-pricing", children: plans.map((p) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("article", { className: p.featured ? "gym-plan is-featured" : "gym-plan", children: [
-            p.featured && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "gym-plan-badge", children: "\u0627\u0644\u0623\u0643\u062B\u0631 \u0637\u0644\u0628\u064B\u0627" }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", { children: p.name }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { className: "gym-plan-price", children: [
-              p.price,
-              " ",
-              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("small", { children: "\u062C\u0646\u064A\u0647" })
-            ] }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", { children: p.perks.map((perk) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: perk }, perk)) }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { type: "button", className: p.featured ? "gym-btn gym-plan-btn" : "gym-btn gym-btn-ghost gym-plan-btn", onClick: () => pickPlan(p.name), children: "\u0627\u0634\u062A\u0631\u0643" })
-          ] }, p.name)) })
-        ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", { className: "gym-section gym-section-dark", id: "gym-schedule", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", { className: "gym-section-title", children: [
-            "\u062C\u062F\u0648\u0644 ",
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "\u0627\u0644\u062D\u0635\u0635" })
-          ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-section-sub", children: "\u0627\u0644\u062C\u064A\u0645 \u0645\u0641\u062A\u0648\u062D \u064A\u0648\u0645\u064A\u064B\u0627 \u0645\u0646 7 \u0627\u0644\u0635\u0628\u062D \u0644\u064012 \u0628\u0627\u0644\u0644\u064A\u0644. \u0627\u062E\u062A\u0627\u0631 \u064A\u0648\u0645\u0643:" }),
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "gym-days", children: dayNames.map((d) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { type: "button", className: day === d ? "gym-day is-active" : "gym-day", onClick: () => setDay(d), children: d }, d)) }),
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "gym-timetable", children: schedule[day].map(([time, name, coach]) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "gym-slot", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "gym-slot-time", children: time }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "gym-slot-name", children: name }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "gym-slot-coach", children: coach })
-          ] }, time + name)) })
-        ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", { className: "gym-section", id: "gym-bmi", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", { className: "gym-section-title", children: [
-            "\u0627\u062D\u0633\u0628 ",
-            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "\u0645\u0624\u0634\u0631 \u0643\u062A\u0644\u0629 \u062C\u0633\u0645\u0643" })
-          ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-section-sub", children: "\u0627\u062F\u062E\u0644 \u0637\u0648\u0644\u0643 \u0648\u0648\u0632\u0646\u0643 \u0648\u0634\u0648\u0641 \u0627\u0644\u0646\u062A\u064A\u062C\u0629 \u2014 \u0627\u0644\u0642\u0631\u0627\u0621\u0629 \u0644\u0644\u0645\u0639\u0644\u0648\u0645\u0629 \u0627\u0644\u0639\u0627\u0645\u0629 \u0628\u0633 \u0648\u0645\u0634 \u0628\u062F\u064A\u0644 \u0639\u0646 \u0627\u0633\u062A\u0634\u0627\u0631\u0629 \u0645\u062A\u062E\u0635\u0635." }),
-          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "gym-bmi", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "gym-bmi-form", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("label", { children: [
-                "\u0627\u0644\u0637\u0648\u0644 (\u0633\u0645)",
-                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", { type: "number", value: height, onChange: (e6) => setHeight(e6.target.value), placeholder: "\u0645\u062B\u0627\u0644: 175", min: 100, max: 250 })
-              ] }),
-              /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("label", { children: [
-                "\u0627\u0644\u0648\u0632\u0646 (\u0643\u062C\u0645)",
-                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", { type: "number", value: weight, onChange: (e6) => setWeight(e6.target.value), placeholder: "\u0645\u062B\u0627\u0644: 80", min: 30, max: 300 })
-              ] }),
-              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { type: "button", className: "gym-btn", onClick: calcBmi, children: "\u0627\u062D\u0633\u0628" })
-            ] }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "gym-bmi-result", children: [
-              bmiResult === null && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-bmi-placeholder", children: "\u0627\u0644\u0646\u062A\u064A\u062C\u0629 \u0647\u062A\u0638\u0647\u0631 \u0647\u0646\u0627" }),
-              bmiResult === "error" && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-bmi-placeholder", children: "\u0627\u0643\u062A\u0628 \u0637\u0648\u0644 \u0648\u0648\u0632\u0646 \u0635\u062D\u064A\u062D\u064A\u0646 \u0627\u0644\u0623\u0648\u0644 \u{1F642}" }),
-              bmiResult !== null && bmiResult !== "error" && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
-                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-bmi-num", style: { color: bmiResult.color }, children: bmiResult.num }),
-                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-bmi-cat", style: { color: bmiResult.color }, children: bmiResult.cat }),
-                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-bmi-hint", children: bmiResult.hint })
-              ] })
-            ] })
-          ] })
-        ] }),
-        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("footer", { className: "gym-footer", id: "gym-join", children: [
-          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "gym-footer-cta", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", { children: [
-              "\u062C\u0627\u0647\u0632 \u062A\u0628\u062F\u0623\u061F ",
-              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "\u0623\u0648\u0644 \u062D\u0635\u0629 \u0639\u0644\u064A\u0646\u0627" })
-            ] }),
-            !joined && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "gym-join", children: [
-              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", { type: "text", value: joinName, onChange: (e6) => setJoinName(e6.target.value), placeholder: "\u0627\u0633\u0645\u0643", required: true }),
-              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", { type: "tel", value: joinPhone, onChange: (e6) => setJoinPhone(e6.target.value), placeholder: "\u0631\u0642\u0645 \u0645\u0648\u0628\u0627\u064A\u0644\u0643", required: true, pattern: "[0-9+ ]{10,15}" }),
-              /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("select", { value: joinPlan, onChange: (e6) => setJoinPlan(e6.target.value), required: true, children: [
-                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("option", { value: "", disabled: true, children: "\u0627\u062E\u062A\u0627\u0631 \u0627\u0644\u0627\u0634\u062A\u0631\u0627\u0643" }),
-                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("option", { children: "\u0634\u0647\u0631\u064A" }),
-                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("option", { children: "3 \u0634\u0647\u0648\u0631" }),
-                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("option", { children: "\u0633\u0646\u0648\u064A" }),
-                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("option", { children: "\u062D\u0635\u0629 \u062A\u062C\u0631\u064A\u0628\u064A\u0629 \u0645\u062C\u0627\u0646\u064A\u0629" })
-              ] }),
-              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { className: "gym-btn", type: "button", onClick: () => {
-                if (joinName && joinPhone && joinPlan) setJoined(true);
-              }, children: "\u0627\u062D\u062C\u0632 \u0645\u0643\u0627\u0646\u0643" })
-            ] }),
-            joined && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-join-done", children: "\u2713 \u0627\u0644\u0632\u0631\u0627\u0631 \u0634\u063A\u0627\u0644 \u2014 \u0644\u0643\u0646 \u062F\u064A \u0646\u0633\u062E\u0629 \u062A\u062C\u0631\u064A\u0628\u064A\u0629: \u0628\u064A\u0627\u0646\u0627\u062A\u0643 \u0645\u0634 \u0628\u062A\u062A\u0628\u0639\u062A \u0648\u0644\u0627 \u0628\u062A\u062A\u0633\u062C\u0651\u0644 \u0641\u064A \u0623\u064A \u0645\u0643\u0627\u0646\u060C \u0648\u0645\u0641\u064A\u0634 \u062D\u062F \u0647\u064A\u062A\u0648\u0627\u0635\u0644 \u0645\u0639\u0627\u0643." })
-          ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "gym-footer-info", children: [
-            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
-              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h4", { children: "\u0627\u0644\u0639\u0646\u0648\u0627\u0646" }),
-              /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { children: [
-                "\u0634\u0627\u0631\u0639 \u0627\u0644\u062C\u0645\u0647\u0648\u0631\u064A\u0629\u060C \u0627\u0644\u0641\u064A\u0648\u0645",
-                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {}),
-                "\u0628\u062C\u0648\u0627\u0631 \u0645\u062D\u0637\u0629 \u0627\u0644\u0642\u0637\u0627\u0631"
-              ] })
-            ] }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
-              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h4", { children: "\u0627\u0644\u0645\u0648\u0627\u0639\u064A\u062F" }),
-              /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { children: [
-                "\u064A\u0648\u0645\u064A\u064B\u0627: 7 \u0635\u0628\u0627\u062D\u064B\u0627 \u2013 12 \u0645\u0646\u062A\u0635\u0641 \u0627\u0644\u0644\u064A\u0644",
-                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {}),
-                "\u0627\u0644\u0633\u064A\u062F\u0627\u062A: 10 \u0635 \u2013 4 \u0645 (\u0642\u0633\u0645 \u062E\u0627\u0635)"
-              ] })
-            ] }),
-            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
-              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h4", { children: "\u062A\u0648\u0627\u0635\u0644 \u0645\u0639\u0627\u0646\u0627 (\u0628\u064A\u0627\u0646\u0627\u062A \u0644\u0644\u062A\u0648\u0636\u064A\u062D)" }),
-              /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { children: [
-                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { dir: "ltr", children: "0100 000 0000" }),
-                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {}),
-                /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { dir: "ltr", children: "@titangym.fayoum" })
-              ] })
-            ] })
-          ] }),
-          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-footer-copy", children: "\xA9 2026 TITAN GYM \u2014 \u0646\u0633\u062E\u0629 \u062A\u062C\u0631\u064A\u0628\u064A\u0629 \u0644\u0644\u0645\u0631\u0627\u062C\u0639\u0629" })
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("nav", { className: menuOpen ? "gym-nav-links is-open" : "gym-nav-links", children: [["programs", "\u0627\u0644\u0628\u0631\u0627\u0645\u062C"], ["trainers", "\u0627\u0644\u0645\u062F\u0631\u0628\u064A\u0646"], ["pricing", "\u0627\u0644\u0623\u0633\u0639\u0627\u0631"], ["schedule", "\u0627\u0644\u062C\u062F\u0648\u0644"], ["bmi", "\u0627\u062D\u0633\u0628 BMI"]].map(([id2, label]) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { type: "button", onClick: () => scrollToId(`gym-${id2}`), children: label }, id2)) }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { type: "button", className: "gym-btn gym-btn-sm", onClick: () => scrollToId("gym-join"), children: "\u0627\u0634\u062A\u0631\u0643 \u062F\u0644\u0648\u0642\u062A\u064A" }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("button", { type: "button", className: "gym-burger", "aria-label": "\u0627\u0644\u0642\u0627\u0626\u0645\u0629", onClick: () => setMenuOpen(!menuOpen), children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {}),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {}),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {})
         ] })
       ] }),
-      /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Closing, { children: "\u0646\u0633\u062E\u0629 \u0645\u0631\u0627\u062C\u0639\u0629: \u0627\u0644\u0623\u0633\u0645\u0627\u0621 \u0648\u0627\u0644\u0623\u0633\u0639\u0627\u0631 \u0648\u0627\u0644\u0635\u0648\u0631 \u0631\u0645\u0632\u064A\u0629\u060C \u0648\u0627\u0644\u062D\u062C\u0632 \u064A\u0639\u0645\u0644 \u062F\u0627\u062E\u0644 \u0627\u0644\u0635\u0641\u062D\u0629 \u0641\u0642\u0637 \u0645\u0646 \u063A\u064A\u0631 \u0625\u0631\u0633\u0627\u0644." })
-    ] });
+      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", { className: "gym-hero", id: "gym-hero", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "gym-hero-bg", "aria-hidden": "true" }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "gym-hero-content", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { className: "gym-hero-tag", children: [
+            DUMBBELL,
+            " \u062A\u0635\u0645\u064A\u0645 \u062A\u062C\u0631\u064A\u0628\u064A \u0644\u0645\u0648\u0642\u0639 \u062C\u064A\u0645 \u0641\u064A \u0627\u0644\u0641\u064A\u0648\u0645"
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h1", { children: [
+            "\u062C\u0633\u0645\u0643 \u0645\u0634\u0631\u0648\u0639\u0643",
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {}),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "\u0648\u0627\u062D\u0646\u0627 \u0645\u0647\u0646\u062F\u0633\u064A\u0646\u0647" })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-hero-sub", children: "\u0623\u062C\u0647\u0632\u0629 \u062D\u062F\u064A\u062B\u0629\u060C \u0645\u062F\u0631\u0628\u064A\u0646 \u0645\u0639\u062A\u0645\u062F\u064A\u0646\u060C \u0648\u062E\u0637\u0637 \u062A\u063A\u0630\u064A\u0629 \u0648\u062A\u0645\u0631\u064A\u0646 \u0645\u062E\u0635\u0635\u0629 \u0644\u064A\u0643 \u2014 \u0645\u0646 \u0623\u0648\u0644 \u064A\u0648\u0645 \u0644\u062D\u062F \u0645\u0627 \u062A\u0648\u0635\u0644 \u0644\u0647\u062F\u0641\u0643." }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "gym-hero-cta", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { type: "button", className: "gym-btn", onClick: () => scrollToId("gym-pricing"), children: "\u0634\u0648\u0641 \u0627\u0644\u0627\u0634\u062A\u0631\u0627\u0643\u0627\u062A" }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { type: "button", className: "gym-btn gym-btn-ghost", onClick: () => scrollToId("gym-bmi"), children: "\u0627\u062D\u0633\u0628 BMI \u0628\u062A\u0627\u0639\u0643" })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "gym-hero-stats", children: [["1250", "\u0639\u0636\u0648 \u0646\u0634\u0637"], ["18", "\u0645\u062F\u0631\u0628 \u0645\u0639\u062A\u0645\u062F"], ["45", "\u062D\u0635\u0629 \u0623\u0633\u0628\u0648\u0639\u064A\u064B\u0627"], ["7", "\u0633\u0646\u064A\u0646 \u062E\u0628\u0631\u0629"]].map(([n, label]) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "gym-stat", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "gym-stat-num", "data-count": n, children: "0" }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "gym-stat-label", children: label })
+          ] }, label)) }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-stats-note", children: "\u0623\u0631\u0642\u0627\u0645 \u0644\u0644\u0639\u0631\u0636 \u0627\u0644\u062A\u062C\u0631\u064A\u0628\u064A \u0641\u0642\u0637" })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "gym-hero-art", "aria-hidden": "true", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "gym-hero-circle" }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("svg", { className: "gym-hero-figure", viewBox: "0 0 200 220", fill: "currentColor", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("circle", { cx: "100", cy: "42", r: "24" }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d: "M100 70c-26 0-46 12-56 34l-22 46c-3 7 1 15 9 16 6 1 12-2 15-8l18-38c4-8 12-13 21-13h30c9 0 17 5 21 13l18 38c3 6 9 9 15 8 8-1 12-9 9-16l-22-46c-10-22-30-34-56-34z" }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", { x: "8", y: "86", width: "184", height: "10", rx: "5" }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", { x: "0", y: "74", width: "22", height: "34", rx: "5" }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", { x: "178", y: "74", width: "22", height: "34", rx: "5" })
+          ] })
+        ] })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "gym-marquee", dir: "ltr", children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "gym-marquee-track", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: marqueeText }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: marqueeText })
+      ] }) }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", { className: "gym-section", id: "gym-programs", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", { className: "gym-section-title", children: [
+          "\u0628\u0631\u0627\u0645\u062C\u0646\u0627 ",
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "\u0627\u0644\u062A\u062F\u0631\u064A\u0628\u064A\u0629" })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-section-sub", children: "\u0627\u062E\u062A\u0627\u0631 \u0627\u0644\u0628\u0631\u0646\u0627\u0645\u062C \u0627\u0644\u0644\u064A \u064A\u0646\u0627\u0633\u0628 \u0647\u062F\u0641\u0643\u060C \u0648\u0627\u0644\u0645\u062F\u0631\u0628\u064A\u0646 \u064A\u0638\u0628\u0637\u0648\u0644\u0643 \u0627\u0644\u062E\u0637\u0629." }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "gym-filters", children: [["all", "\u0627\u0644\u0643\u0644"], ["strength", "\u0642\u0648\u0629 \u0648\u0628\u0646\u0627\u0621 \u0639\u0636\u0644"], ["cutting", "\u062A\u0646\u0634\u064A\u0641 \u0648\u062E\u0633\u0627\u0631\u0629 \u0648\u0632\u0646"], ["fitness", "\u0644\u064A\u0627\u0642\u0629 \u0639\u0627\u0645\u0629"]].map(([f, label]) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { type: "button", className: filter === f ? "gym-chip is-active" : "gym-chip", onClick: () => setFilter(f), children: label }, f)) }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "gym-cards", children: programs.filter((p) => filter === "all" || p.cat === filter).map((p) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("article", { className: "gym-card", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "gym-card-icon", children: p.icon }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", { children: p.name }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { children: p.desc }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "gym-card-meta", children: p.meta })
+        ] }, p.name)) })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", { className: "gym-section gym-section-dark", id: "gym-trainers", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", { className: "gym-section-title", children: [
+          "\u0645\u062F\u0631\u0628\u064A\u0646\u0627 ",
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "\u0627\u0644\u0645\u062D\u062A\u0631\u0641\u064A\u0646" })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-section-sub", children: "\u0623\u0633\u0645\u0627\u0621 \u0648\u0628\u064A\u0627\u0646\u0627\u062A \u0644\u0644\u062A\u0648\u0636\u064A\u062D \u0641\u0642\u0637 \u2014 \u0641\u064A \u0627\u0644\u0645\u0648\u0642\u0639 \u0627\u0644\u0646\u0647\u0627\u0626\u064A \u062A\u062A\u0639\u0631\u0636 \u0628\u064A\u0627\u0646\u0627\u062A \u0627\u0644\u0645\u062F\u0631\u0628\u064A\u0646 \u0627\u0644\u062D\u0642\u064A\u0642\u064A\u0629." }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "gym-trainers", children: trainers.map((t) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("article", { className: "gym-trainer", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "gym-trainer-avatar", children: t.initial }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", { children: t.name }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-trainer-role", children: t.role }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-trainer-bio", children: t.bio })
+        ] }, t.name)) })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", { className: "gym-section", id: "gym-pricing", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", { className: "gym-section-title", children: [
+          "\u0627\u0634\u062A\u0631\u0627\u0643\u0627\u062A ",
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "\u062A\u0646\u0627\u0633\u0628\u0643" })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-section-sub", children: "\u0623\u0633\u0639\u0627\u0631 \u062A\u062C\u0631\u064A\u0628\u064A\u0629 \u0644\u0644\u0639\u0631\u0636 \u2014 \u0641\u064A \u0627\u0644\u0645\u0648\u0642\u0639 \u0627\u0644\u0646\u0647\u0627\u0626\u064A \u062A\u062A\u062D\u0637 \u0623\u0633\u0639\u0627\u0631 \u0627\u0644\u062C\u064A\u0645 \u0627\u0644\u062D\u0642\u064A\u0642\u064A\u0629." }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "gym-pricing", children: plans.map((p) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("article", { className: p.featured ? "gym-plan is-featured" : "gym-plan", children: [
+          p.featured && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "gym-plan-badge", children: "\u0627\u0644\u0623\u0643\u062B\u0631 \u0637\u0644\u0628\u064B\u0627" }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", { children: p.name }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { className: "gym-plan-price", children: [
+            p.price,
+            " ",
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("small", { children: "\u062C\u0646\u064A\u0647" })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", { children: p.perks.map((perk) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("li", { children: perk }, perk)) }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { type: "button", className: p.featured ? "gym-btn gym-plan-btn" : "gym-btn gym-btn-ghost gym-plan-btn", onClick: () => pickPlan(p.name), children: "\u0627\u0634\u062A\u0631\u0643" })
+        ] }, p.name)) })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", { className: "gym-section gym-section-dark", id: "gym-schedule", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", { className: "gym-section-title", children: [
+          "\u062C\u062F\u0648\u0644 ",
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "\u0627\u0644\u062D\u0635\u0635" })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-section-sub", children: "\u0627\u0644\u062C\u064A\u0645 \u0645\u0641\u062A\u0648\u062D \u064A\u0648\u0645\u064A\u064B\u0627 \u0645\u0646 7 \u0627\u0644\u0635\u0628\u062D \u0644\u064012 \u0628\u0627\u0644\u0644\u064A\u0644. \u0627\u062E\u062A\u0627\u0631 \u064A\u0648\u0645\u0643:" }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "gym-days", children: dayNames.map((d) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { type: "button", className: day === d ? "gym-day is-active" : "gym-day", onClick: () => setDay(d), children: d }, d)) }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "gym-timetable", children: schedule[day].map(([time, name, coach]) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "gym-slot", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "gym-slot-time", children: time }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "gym-slot-name", children: name }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "gym-slot-coach", children: coach })
+        ] }, time + name)) })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", { className: "gym-section", id: "gym-bmi", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", { className: "gym-section-title", children: [
+          "\u0627\u062D\u0633\u0628 ",
+          /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "\u0645\u0624\u0634\u0631 \u0643\u062A\u0644\u0629 \u062C\u0633\u0645\u0643" })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-section-sub", children: "\u0627\u062F\u062E\u0644 \u0637\u0648\u0644\u0643 \u0648\u0648\u0632\u0646\u0643 \u0648\u0634\u0648\u0641 \u0627\u0644\u0646\u062A\u064A\u062C\u0629 \u2014 \u0627\u0644\u0642\u0631\u0627\u0621\u0629 \u0644\u0644\u0645\u0639\u0644\u0648\u0645\u0629 \u0627\u0644\u0639\u0627\u0645\u0629 \u0628\u0633 \u0648\u0645\u0634 \u0628\u062F\u064A\u0644 \u0639\u0646 \u0627\u0633\u062A\u0634\u0627\u0631\u0629 \u0645\u062A\u062E\u0635\u0635." }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "gym-bmi", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "gym-bmi-form", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("label", { children: [
+              "\u0627\u0644\u0637\u0648\u0644 (\u0633\u0645)",
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", { type: "number", value: height, onChange: (e6) => setHeight(e6.target.value), placeholder: "\u0645\u062B\u0627\u0644: 175", min: 100, max: 250 })
+            ] }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("label", { children: [
+              "\u0627\u0644\u0648\u0632\u0646 (\u0643\u062C\u0645)",
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", { type: "number", value: weight, onChange: (e6) => setWeight(e6.target.value), placeholder: "\u0645\u062B\u0627\u0644: 80", min: 30, max: 300 })
+            ] }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { type: "button", className: "gym-btn", onClick: calcBmi, children: "\u0627\u062D\u0633\u0628" })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "gym-bmi-result", children: [
+            bmiResult === null && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-bmi-placeholder", children: "\u0627\u0644\u0646\u062A\u064A\u062C\u0629 \u0647\u062A\u0638\u0647\u0631 \u0647\u0646\u0627" }),
+            bmiResult === "error" && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-bmi-placeholder", children: "\u0627\u0643\u062A\u0628 \u0637\u0648\u0644 \u0648\u0648\u0632\u0646 \u0635\u062D\u064A\u062D\u064A\u0646 \u0627\u0644\u0623\u0648\u0644 \u{1F642}" }),
+            bmiResult !== null && bmiResult !== "error" && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-bmi-num", style: { color: bmiResult.color }, children: bmiResult.num }),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-bmi-cat", style: { color: bmiResult.color }, children: bmiResult.cat }),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-bmi-hint", children: bmiResult.hint })
+            ] })
+          ] })
+        ] })
+      ] }),
+      /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("footer", { className: "gym-footer", id: "gym-join", children: [
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "gym-footer-cta", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("h2", { children: [
+            "\u062C\u0627\u0647\u0632 \u062A\u0628\u062F\u0623\u061F ",
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "\u0623\u0648\u0644 \u062D\u0635\u0629 \u0639\u0644\u064A\u0646\u0627" })
+          ] }),
+          !joined && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "gym-join", children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", { type: "text", value: joinName, onChange: (e6) => setJoinName(e6.target.value), placeholder: "\u0627\u0633\u0645\u0643", required: true }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", { type: "tel", value: joinPhone, onChange: (e6) => setJoinPhone(e6.target.value), placeholder: "\u0631\u0642\u0645 \u0645\u0648\u0628\u0627\u064A\u0644\u0643", required: true, pattern: "[0-9+ ]{10,15}" }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("select", { value: joinPlan, onChange: (e6) => setJoinPlan(e6.target.value), required: true, children: [
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("option", { value: "", disabled: true, children: "\u0627\u062E\u062A\u0627\u0631 \u0627\u0644\u0627\u0634\u062A\u0631\u0627\u0643" }),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("option", { children: "\u0634\u0647\u0631\u064A" }),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("option", { children: "3 \u0634\u0647\u0648\u0631" }),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("option", { children: "\u0633\u0646\u0648\u064A" }),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("option", { children: "\u062D\u0635\u0629 \u062A\u062C\u0631\u064A\u0628\u064A\u0629 \u0645\u062C\u0627\u0646\u064A\u0629" })
+            ] }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("button", { className: "gym-btn", type: "button", onClick: () => {
+              if (joinName && joinPhone && joinPlan) setJoined(true);
+            }, children: "\u0627\u062D\u062C\u0632 \u0645\u0643\u0627\u0646\u0643" })
+          ] }),
+          joined && /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-join-done", children: "\u2713 \u0627\u0644\u0632\u0631\u0627\u0631 \u0634\u063A\u0627\u0644 \u2014 \u0644\u0643\u0646 \u062F\u064A \u0646\u0633\u062E\u0629 \u062A\u062C\u0631\u064A\u0628\u064A\u0629: \u0628\u064A\u0627\u0646\u0627\u062A\u0643 \u0645\u0634 \u0628\u062A\u062A\u0628\u0639\u062A \u0648\u0644\u0627 \u0628\u062A\u062A\u0633\u062C\u0651\u0644 \u0641\u064A \u0623\u064A \u0645\u0643\u0627\u0646\u060C \u0648\u0645\u0641\u064A\u0634 \u062D\u062F \u0647\u064A\u062A\u0648\u0627\u0635\u0644 \u0645\u0639\u0627\u0643." })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { className: "gym-footer-info", children: [
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h4", { children: "\u0627\u0644\u0639\u0646\u0648\u0627\u0646" }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { children: [
+              "\u0634\u0627\u0631\u0639 \u0627\u0644\u062C\u0645\u0647\u0648\u0631\u064A\u0629\u060C \u0627\u0644\u0641\u064A\u0648\u0645",
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {}),
+              "\u0628\u062C\u0648\u0627\u0631 \u0645\u062D\u0637\u0629 \u0627\u0644\u0642\u0637\u0627\u0631"
+            ] })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h4", { children: "\u0627\u0644\u0645\u0648\u0627\u0639\u064A\u062F" }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { children: [
+              "\u064A\u0648\u0645\u064A\u064B\u0627: 7 \u0635\u0628\u0627\u062D\u064B\u0627 \u2013 12 \u0645\u0646\u062A\u0635\u0641 \u0627\u0644\u0644\u064A\u0644",
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {}),
+              "\u0627\u0644\u0633\u064A\u062F\u0627\u062A: 10 \u0635 \u2013 4 \u0645 (\u0642\u0633\u0645 \u062E\u0627\u0635)"
+            ] })
+          ] }),
+          /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [
+            /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h4", { children: "\u062A\u0648\u0627\u0635\u0644 \u0645\u0639\u0627\u0646\u0627 (\u0628\u064A\u0627\u0646\u0627\u062A \u0644\u0644\u062A\u0648\u0636\u064A\u062D)" }),
+            /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", { children: [
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { dir: "ltr", children: "0100 000 0000" }),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("br", {}),
+              /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { dir: "ltr", children: "@titangym.fayoum" })
+            ] })
+          ] })
+        ] }),
+        /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", { className: "gym-footer-copy", children: "\xA9 2026 TITAN GYM \u2014 \u0646\u0633\u062E\u0629 \u062A\u062C\u0631\u064A\u0628\u064A\u0629 \u0644\u0644\u0645\u0631\u0627\u062C\u0639\u0629" })
+      ] })
+    ] }) });
   }
 
   // src/main.tsx
